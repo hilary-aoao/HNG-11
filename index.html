@@ -10,23 +10,30 @@
     <title>Personal Website</title>
 </head>
 <body>
-    <div class="date_time">
-        <p>
-            Today is <strong><span data-testid="currentDay" id="currentDayOfWeek"></span></strong>
-        </p>
-        <p>
-            Time: <span data-testid="currentTimeUTC" id="currentTime">00:00:00</span>
-        </p>
-    </div>
+    <section class="nav">
+        <div class="date_time">
+            <p>
+                Today is <span data-testid="currentDay" id="currentDayOfWeek"></span>
+            </p>
+            <p>
+                Time: <span data-testid="currentTimeUTC" id="currentTime"></span>
+            </p>
+        </div>
+        <div class="links">
+            <a href="http://hng.tech/learn" target= "_blank" data-testid="http://hng.tech/learn"> hng tech </a>
+            <a href="http://keyword.dog" target= "_blank" data-testid="http://keyword.dog"> keyword </a>
+            <a href="http://scrapeanyweb.site" target= "_blank" data-testid="http://scrapeanyweb.site"> scapeanyweb</a>
+        </div>
+    </section>
 
-    <div class="main_container">
 
+    <section class="main_container">
         <div class="container">
             <div class="profile">
                 <img src="img/okay face (1).png" alt="my picture" data-testid="img/okay face (1).png">
                 <h2 data-testid="Hilary">Hilary</h2>
                 <h3>Frontend Developer Intern</h3>
-                <a href="mailto:hilaryorefo50@gmail.com" data-testid="hilaryorefo50@gmail.com"> Email: hilaryorefo50@gmail.com </a> 
+                <a href="mailto:hilaryorefo50@gmail.com" data-testid="hilaryorefo50@gmail.com"> hilaryorefo50@gmail.com </a> 
             </div>
             <div class="goals">
                 <h1>My Goals For The Next 2 Years In The Tech Field</h1>
@@ -40,12 +47,7 @@
                 </ul>
             </div>
         </div>
-
-    </div>
-    <a href="hng.tech/learn" data-testid="hng.tech/learn">hng tech</a>
-    <a href="" data-testid="keywordLink"></a>
-
-    
+    </section>   
 </body>
 <script src="script.js"></script>
 </html>
